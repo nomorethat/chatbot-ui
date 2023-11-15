@@ -197,6 +197,11 @@ defaultElement.addEventListener("scroll", function() {
 textboxDefault?.classList.add("custom-textbox-default");
 defaultElement?.classList.add("custom-textbox-default-textarea");
 
+const defaultTab = document.querySelector("#default-tab");
+const tabNav = defaultTab.querySelector(".tabs");
+
+tabNav?.classList.add("custom-tab-nav");
+
 const defaultObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
     if(!defaultScrolled) {
@@ -339,3 +344,6 @@ document.getElementById("show-controls").parentNode.style.bottom = "0px";
 // Focus on the chat input
 //------------------------------------------------
 document.querySelector("#chat-input textarea").focus();
+
+const chatCol = document.getElementById("chat-col");
+chatCol.innerHTML += "<div class='footerAboutGPT'>На технологиях GPT</div>"
