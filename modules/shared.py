@@ -29,7 +29,7 @@ need_restart = False
 # UI defaults
 settings = {
     'dark_theme': True,
-    'show_controls': True,
+    'show_controls': False,
     'start_with': '',
     'mode': 'chat',
     'chat_style': 'cai-chat',
