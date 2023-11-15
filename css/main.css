@@ -93,20 +93,27 @@ div.svelte-15lo0d8 > *, div.svelte-15lo0d8 > .form > * {
 .header_bar {
     height: 60px;
     background-color: #1D6DA8;
-    margin-bottom: 19px;
+    margin-bottom: 30px;
     overflow-x: scroll;
-    display: block !important;
     text-wrap: nowrap;
 }
 
 .dark .header_bar {
     border: none !important;
-    background-color: #8080802b;
     background-color: #1D6DA8;
+}
+
+.header_bar button {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .header_bar button.selected {
     border-radius: 0;
+    background: none;
+    border: none;
 }
 
 .textbox_default textarea {
@@ -422,11 +429,8 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 }
 
 #chat-input textarea {
-    padding: 5px 10px 5px 10px;
     border: none;
     background: white;
-    display: flex;
-    align-items: center;
     color: #2A3C49;
 }
 
@@ -634,7 +638,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 
 #chat-col {
     display: grid;
-    grid-template-rows: auto 100px 20px;
+    grid-template-rows: auto 80px 20px;
     background: white;
 }
 
