@@ -164,3 +164,18 @@ Copied from https://github.com/SillyTavern/SillyTavern/tree/6c8bd06308c69d51e2eb
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'PT Sans';
+    src: url('file/css/PT_Sans/PTSans-Regular.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Bold';
+    src: url('file/css/PT_Sans/PTSans-Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
