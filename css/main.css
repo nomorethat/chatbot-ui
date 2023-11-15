@@ -619,6 +619,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 
 #chat-col {
     padding-bottom: 115px;
+    background: white;
 }
 
 .old-ui #chat-col, #chat-col.bigchat {
@@ -659,4 +660,41 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     background: white !important;
     color: #2A3C49 !important;
     border-color: #d7dee6 !important;
+}
+
+.custom-tab-nav .tab-nav {
+    border-bottom-color: #1D6DA8;
+}
+.custom-tab-nav .tabitem {
+    border-bottom-color: #1D6DA8;
+}
+
+.message_bot .text {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0 10px 15px;
+}
+
+.message_bot .text .message-body {
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 50%;
+    background: #f4f6f8;
+}
+
+.message_you .text {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 15px 5px 0;
+}
+
+.message_you .text .message-body {
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 50%;
+    background: #1D6DA8;
+}
+
+.message_you .text .message-body p {
+    color: white !important;
 }
