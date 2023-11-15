@@ -182,6 +182,7 @@ notebookObserver.observe(notebookElement.parentNode.parentNode.parentNode, confi
 // Default box scrolling
 //------------------------------------------------
 const defaultElement = document.querySelector("#textbox-default textarea");
+const textboxDefault = document.querySelector("#textbox-default");
 let defaultScrolled = false;
 
 defaultElement.addEventListener("scroll", function() {
@@ -192,6 +193,9 @@ defaultElement.addEventListener("scroll", function() {
     defaultScrolled = true;
   }
 });
+
+textboxDefault?.classList.add("custom-textbox-default");
+defaultElement?.classList.add("custom-textbox-default-textarea");
 
 const defaultObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {

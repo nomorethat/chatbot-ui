@@ -141,11 +141,10 @@ div.svelte-15lo0d8 > *, div.svelte-15lo0d8 > .form > * {
 .textbox_logits_notebook textarea,
 .textbox textarea {
     font-size: 16px !important;
-    color: #46464A !important;
 }
 
 .dark textarea {
-    color: #efefef !important;
+    color: red;
 }
 
 @media screen and (width <= 711px) {
@@ -650,4 +649,14 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 ---------------------------------------------- */
 .options {
     z-index: 100 !important;
+}
+
+.custom-textbox-default {
+    background: #1D6DA8 !important;
+}
+
+.custom-textbox-default-textarea {
+    background: white !important;
+    color: #2A3C49 !important;
+    border-color: #d7dee6 !important;
 }
