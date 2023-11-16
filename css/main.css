@@ -732,3 +732,19 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     color: white !important;
     border: none;
 }
+
+#default-tab-button {
+    display: none;
+}
+
+#notebook-tab-button {
+    display: none;
+}
+
+#training-tab-button {
+    display: none;
+}
+
+#session-tab-button {
+    display: none;
+}

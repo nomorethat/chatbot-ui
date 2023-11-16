@@ -52,7 +52,7 @@ def create_ui():
     else:
         default_cpu_mem = 0
 
-    with gr.Tab("Model", elem_id="model-tab"):
+    with gr.Tab("Модель", elem_id="model-tab"):
         with gr.Row():
             with gr.Column():
                 with gr.Row():
