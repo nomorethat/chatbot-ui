@@ -197,6 +197,18 @@ defaultElement.addEventListener("scroll", function() {
 textboxDefault?.classList.add("custom-textbox-default");
 defaultElement?.classList.add("custom-textbox-default-textarea");
 
+const defaultTab = document.querySelector("#default-tab");
+const tabNav = defaultTab.querySelector(".tabs");
+
+tabNav?.classList.add("custom-tab-nav");
+
+const headerBar = document.querySelector(".header_bar");
+const logo = document.createElement("div");
+logo?.classList.add("header-logo");
+logo.innerHTML = "<img src='file/css/images/GerbLogo.svg'/>";
+headerBar.prepend(logo);
+
+
 const defaultObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
     if(!defaultScrolled) {
