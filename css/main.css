@@ -484,8 +484,8 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     position: absolute;
     height: 100%;
     background-color: white !important;
-    border: 0 !important;
-    border-radius: 0;
+    border: 1px solid #d7dee6;
+    border-radius: 0 0 10px 10px;
 }
 
 #show-controls label {
@@ -555,6 +555,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 .hover-element {
     position: relative;
     font-size: 24px;
+    color: #1D6DA8 !important;
 }
 
 .hover-menu {
@@ -602,15 +603,17 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     min-width: 0 !important;
     display: flex;
     flex-direction: column-reverse;
-    padding-right: 20px;
+    padding: 0 20px;
     padding-bottom: 3px;
     flex-grow: 0 !important;
+    color: #1D6DA8 !important;
 }
 
 #generate-stop-container {
     min-width: 0 !important;
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 10px;
     padding-bottom: 3px;
     flex: 0 auto !important;
 }
@@ -626,10 +629,6 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 
 #chat-input-row {
     padding-bottom: 20px;
-}
-
-.old-ui #chat-input-row, #chat-input-row.bigchat {
-    padding-bottom: 0 !important;
 }
 
 .old-ui #chat-col, #chat-col.bigchat {
