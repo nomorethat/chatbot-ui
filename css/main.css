@@ -350,7 +350,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 }
 
 .chat-parent {
-    height: calc(100dvh - 181px);
+    height: calc(100dvh - 260px);
     overflow: auto !important;
     border: 1px solid #d7dee6 !important;
 }
@@ -360,7 +360,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 }
 
 .chat-parent.bigchat {
-    height: calc(100dvh - 181px) !important;
+    height: calc(100dvh - 260px) !important;
 }
 
 .chat > .messages {
