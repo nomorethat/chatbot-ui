@@ -205,7 +205,7 @@ tabNav?.classList.add("custom-tab-nav");
 const headerBar = document.querySelector(".header_bar");
 const logo = document.createElement("div");
 logo?.classList.add("header-logo");
-logo.innerHTML = "<img src='../css/images/GerbLogo.svg'/>";
+logo.innerHTML = "<img src='./GerbLogo.svg'/>";
 headerBar.prepend(logo);
 
 const chatCol = document.getElementById("chat-tab");
