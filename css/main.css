@@ -95,9 +95,6 @@ div.svelte-15lo0d8 > *, div.svelte-15lo0d8 > .form > * {
     background-color: #1D6DA8;
     margin-bottom: 30px;
     overflow-x: scroll;
-    margin-left: calc(-1 * var(--size-4));
-    margin-right: calc(-1 * var(--size-4));
-    display: block !important;
     text-wrap: nowrap;
 }
 
@@ -429,6 +426,12 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     border: none;
 }
 
+#chat-input textarea {
+    border: none;
+    background: white;
+    color: #2A3C49;
+}
+
 #chat-input textarea:focus {
     box-shadow: none !important;
 }
@@ -626,7 +629,8 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 }
 
 #chat-col {
-    padding-bottom: 115px;
+    display: grid;
+    grid-template-rows: auto 80px 20px;
     background: white;
 }
 
