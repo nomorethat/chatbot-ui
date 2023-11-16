@@ -347,6 +347,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     flex-direction: column;
     word-break: break-word;
     overflow-wrap: anywhere;
+    background: white;
 }
 
 .chat-parent {
@@ -430,7 +431,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 
 #chat-input textarea {
     border: none;
-    background: white;
+    background: #FAFBFC;
     color: #2A3C49;
 }
 
@@ -482,7 +483,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 #show-controls {
     position: absolute;
     height: 100%;
-    background-color: var(--background-fill-primary);
+    background-color: white !important;
     border: 0 !important;
     border-radius: 0;
 }
@@ -631,10 +632,6 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     padding-bottom: 0 !important;
 }
 
-#chat-col {
-    background: white;
-}
-
 .old-ui #chat-col, #chat-col.bigchat {
     padding-bottom: 95px !important;
 }
@@ -729,4 +726,10 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     font-size: 18px;
     line-height: 24px;
     padding: 10px;
+}
+
+#Generate {
+    background: #1D6DA8 !important;
+    color: white !important;
+    border: none;
 }
