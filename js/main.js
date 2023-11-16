@@ -208,6 +208,11 @@ logo?.classList.add("header-logo");
 logo.innerHTML = "<img src='file/css/images/GerbLogo.svg'/>";
 headerBar.prepend(logo);
 
+const chatCol = document.getElementById("chat-tab");
+const footer = document.createElement("div");
+footer.classList.add("footerAboutGPT");
+footer.innerHTML += "На технологиях GPT";
+chatCol.appendChild(footer);
 
 const defaultObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
