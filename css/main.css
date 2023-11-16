@@ -711,3 +711,10 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 .message_you .text .message-body p {
     color: white !important;
 }
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
