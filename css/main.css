@@ -93,7 +93,7 @@ div.svelte-15lo0d8 > *, div.svelte-15lo0d8 > .form > * {
 .header_bar {
     height: 60px;
     background-color: #1D6DA8;
-    margin-bottom: 19px;
+    margin-bottom: 30px;
     overflow-x: scroll;
     margin-left: calc(-1 * var(--size-4));
     margin-right: calc(-1 * var(--size-4));
@@ -103,12 +103,20 @@ div.svelte-15lo0d8 > *, div.svelte-15lo0d8 > .form > * {
 
 .dark .header_bar {
     border: none !important;
-    background-color: #8080802b;
     background-color: #1D6DA8;
+}
+
+.header_bar button {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .header_bar button.selected {
     border-radius: 0;
+    background: none;
+    border: none;
 }
 
 .textbox_default textarea {
