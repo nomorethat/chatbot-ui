@@ -491,6 +491,7 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
     z-index: 1000;
     position: absolute;
     left: calc(100% - 168px);
+    display: none;
 }
 
 #typing-container {
@@ -631,8 +632,6 @@ div.svelte-362y77>*, div.svelte-362y77>.form>* {
 }
 
 #chat-col {
-    display: grid;
-    grid-template-rows: auto 80px 20px;
     background: white;
 }
 
