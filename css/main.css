@@ -283,6 +283,7 @@ audio {
 .gradio-container {
     margin-left: auto !important;
     margin-right: auto !important;
+    padding: 0 !important;
 }
 
 .w-screen {
